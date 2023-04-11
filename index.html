@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import css -->
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <title>~::ADMIN PAGE UI ::~</title>
+</head>
+
+<body>
+    <!-- first part  -->
+
+    <div class="container-fluid">
+        <h6>Visuble Labels Form</h6>
+        <hr />
+        <div class="row shadow">
+            <div class="form-group col-sm-4">
+                <dt>Name</dt>
+                <input type="text" placeholder="Jon Doe" class="form-control" />
+            </div>
+
+            <div class="form-group col-sm-4">
+                <dt>Email</dt>
+                <input type="email" placeholder="JonDoe@example.com" class="form-control" />
+            </div>
+
+            <div class="btn-group col-sm-2">
+                <button class="btn btn-info btn-sm">Sign in</button>
+            </div>
+
+            <!-- second part  -->
+
+            <h6 class="mt-5">Visuble Labels Form</h6>
+            <br />
+            <hr />
+
+            <div class="form-group col-sm-3">
+                <label for="form-email">Email</label>
+                <input type="email" placeholder="JonDoe@example.com" class="form-control" />
+            </div>
+
+            <div class="form-group col-sm-3">
+                <label for="form-password">Password</label>
+                <input type="password" placeholder="password" class="form-control" />
+            </div>
+
+            <div class="form-group col-sm-2">
+                <div class="form-check">
+                    <label class="form-check-label" for="gridCheck">
+                        Remember Me
+                    </label>
+                    <input class="form-check-input" type="checkbox" id="gridCheck" />
+                </div>
+            </div>
+
+            <div class="btn-group col-sm-2">
+                <button type="submit" class="mx-2">Sign in</button>
+            </div>
+
+
+
+
+
+
+
+
+            <!-- Third part  -->
+
+            <h6 class="mt-5">Column Sizing</h6>
+
+            <hr>
+
+
+            <div class="form-group col-sm-2">
+                <input type="text" class="form-control" placeholder="col-md-2">
+            </div>
+
+
+            <div class="form-group col-sm-3">
+                <input type="text" class="form-control" placeholder="col-md-3">
+            </div>
+
+
+            <div class="form-group col-sm-4">
+                <input type="text" class="form-control" placeholder="col-md-4">
+            </div>
+
+            <div class="form-group col-sm-2 mb-3">
+                <input type="text" class="form-control" placeholder="col-md-2">
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- All form Elements -->
+
+
+    <div class="container-fluid mt-5 shadow">
+        <h6 class="mt-5">All Form Elements</h6>
+        <div class="form-group row">
+            <label for="inputText" class="px-5 col-sm-2 ">Normal Text</label>
+            <div class="col-sm-10 mb-2">
+                <input type="text" class="form-control" id="inputText">
+            </div>
+
+            <hr>
+            <label for="HelpTextArea" class="px-5 col-sm-2 ">Help Text Area</label>
+
+            <div class="col-sm-10 mb-2">
+                <input type="text" class="form-control" id="HelpTextArea">
+                <small>A block of Text area write something here....</small>
+            </div>
+            <hr>
+
+            <label for="Place" class="px-5 col-sm-2 ">Place holder</label>
+            <div class="col-sm-10 mb-2">
+                <input type="text" class="form-control" id="Place" placeholder="Place Holder">
+            </div>
+            <hr>
+            <label for="disibilitydata" class="col-sm-2 px-5">Disibility</label>
+            <div class="col-sm-10 mb-2">
+                <input type="text" disabled class="form-control" placeholder="Dispbility input here.."
+                    id="disibilitydata">
+            </div>
+            <hr>
+
+            <label for="staticciontrol" class="col-sm-2 px-5">Static Control</label>
+            <div class="col-sm-10 mb-2">
+                <input type="" draggable="" class="form-control" placeholder="email@example.com">
+            </div>
+
+            <hr>
+
+
+            <div class="row">
+
+                <label for="checkboxradious" class="col-sm-2 mx-4">Check Boxes and Radious
+                </label>
+                <div class="col-sm-1 mb-2">
+                    <input type="checkbox" id="checkboxradious" placeholder="Option one is that this one That one">
+                </div>
+                <div class="col-sm-8 mb-2">
+                    Option one is that this and That sure to includes its great
+                </div>
+
+                <br>
+                <label for="checkboxradious" class="col-sm-2 mx-4">Normal Bootstrap Elemts
+                </label>
+                <div class="col-sm-1 ">
+                    <input type="radio" placeholder="Option one is that this one That one">
+                </div>
+                <div class="col-sm-8 ">
+                    Option one is this and That - besure to include why its great
+                </div>
+
+
+                <label for="checkboxradious" class="col-sm-2 mx-4">
+                </label>
+                <div class="col-sm-1 ">
+                    <input type="radio" placeholder="Option one is that this one That one">
+                </div>
+                <div class="col-sm-8 ">
+                    Option Two can something else and selecting it will be Describe Option here.
+                </div>
+
+            </div>
+
+
+            <hr>
+
+
+            <label for="inlinecheckbox" class="col-sm-2 px-5">Inline check Boxes</label>
+            <div class="col-sm-10 ">
+
+                <input type="checkbox" disabled id="inlinecheckbox">
+                <label for="inlinecheckbox" class="mx-2">A</label>
+
+
+                <input type="checkbox" disabled id="inlinecheckbox">
+                <label for="inlinecheckbox" class="mx-2">B</label>
+
+                <input type="checkbox" disabled id="inlinecheckbox">
+                <label for="inlinecheckbox" class="mx-2">C</label>
+            </div>
+
+
+
+
+
+
+
+            <!-- check box and radioys -->
+
+            <hr>
+
+
+            <label for="inlinecheckbox" class="col-sm-2 px-5">Check Boxes & Radious</label>
+            <div class="col-sm-10 ">
+
+                <input type="checkbox" disabled id="inlinecheckbox">
+                <label for="inlinecheckbox" class="py-1 btn-lg">CheckBox 1</label>
+
+
+                <input type="checkbox" disabled id="inlinecheckbox">
+                <label for="inlinecheckbox" class="py-1 btn-lg">CheckBox 2</label>
+
+                <input type="checkbox" disabled id="inlinecheckbox">
+                <label for="inlinecheckbox" class="py-1 btn-lg">CheckBox 3</label>
+            </div>
+
+
+
+
+
+            <label for="inlinecheckbox" class="col-sm-2 px-5"></label>
+            <div class="col-sm-10 ">
+                <hr>
+                <input type="checkbox" disabled id="option1">
+                <label for="option1" class="custom-control-input py-1 btn-lg">Option 1</label>
+
+
+                <input type="checkbox" disabled id="option1">
+                <label for="option1" class="py-1 btn-lg">Option 2</label>
+
+                <input type="checkbox" disabled id="option1">
+                <label for="option1" class="py-1 btn-lg">Option 3</label>
+            </div>
+
+            <hr>
+
+
+
+
+            <label for="selectone" class="col-sm-2 px-5">Select One</label>
+
+            <div class="col-sm-10">
+                <select name="" multiple id="selectone" class="form-control">
+
+                    <option selected value="option 1">option 1</option>
+                    <option value="option 1">option 2</option>
+                    <option value="option 1">option 3</option>
+                    <option value="option 1">option 4</option>
+
+                </select>
+            </div>
+            <hr>
+
+
+
+            <label for="success" class="col-sm-2 px-4 text-success">Input with Success</label>
+
+            <div class="col-sm-10 mb-2">
+                <input type="text" id="success" class="form-control border-success  text-success">
+            </div>
+
+            <hr>
+
+
+
+
+
+            <label for="warnig" class="col-sm-2 px-4 text-warning">Input with warnig</label>
+
+            <div class="col-sm-10 mb-2">
+                <input type="text" id="warnig" class="form-control border-warning  text-success">
+            </div>
+
+            <hr>
+
+
+
+            <label for="danger" class="col-sm-2 px-4 text-danger">Input with error</label>
+
+            <div class="col-sm-10 mb-2">
+                <input type="text" id="danger" class="form-control border-danger  text-success">
+            </div>
+
+            <hr>
+
+
+
+            <label for="Controldark" class="col-sm-2 px-4 text-dark">Control Sizing </label>
+
+            <div class="col-sm-10 mb-2">
+                <input type="text" id="Controldark" placeholder=".input-lg" class=" btn-md form-control border-dark  text-dark">
+                <input type="text" id="Controldark" placeholder="Default-input"  class="mt-4 btn-lg form-control border-dark  text-dark">
+                <input type="text" id="Controldark" placeholder=".input-sm"  class="mt-4  btn-sm form-control border-dark  text-dark">
+            </div>
+
+            <hr>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
